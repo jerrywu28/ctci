@@ -1,0 +1,22 @@
+{
+  "name": "ctci",
+  "version": "1.0.0",
+  "description": "My attempt at Cracking the Coding Interview problems in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisalarson/ctci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisalarson/ctci/issues"
+  },
+  "homepage": "https://github.com/chrisalarson/ctci#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
