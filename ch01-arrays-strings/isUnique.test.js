@@ -1,6 +1,5 @@
 const isUnique = require('./isUnique');
 
-test('returns true', () => {
-  expect(isUnique()).toBe(true);
-  expect(isUnique()).toBe(false);
+test('isUnique should be defined', () => {
+  expect(isUnique).toBeDefined;
 });

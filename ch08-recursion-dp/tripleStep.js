@@ -1,0 +1,3 @@
+const tripleStep = () => {
+  return true;
+};
