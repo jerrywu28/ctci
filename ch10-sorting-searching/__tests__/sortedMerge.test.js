@@ -1,4 +1,4 @@
-const sortedMerge = require('./sortedMerge');
+const sortedMerge = require('../sortedMerge');
 
 test('sortedMerge should be defined', () => {
   expect(sortedMerge).toBeDefined;

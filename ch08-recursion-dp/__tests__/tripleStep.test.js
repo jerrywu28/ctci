@@ -1,4 +1,4 @@
-const tripleStep = require('./tripleStep');
+const tripleStep = require('../tripleStep');
 
 test('tripleStep should be defined', () => {
   expect(tripleStep).toBeDefined;
