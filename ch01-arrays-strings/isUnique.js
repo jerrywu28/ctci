@@ -1,3 +1,5 @@
+//Using additional data structures:
+
 const isUnique = (string) => {
   //Declare empty object which will be used to store string frequency data
   let countCharacters = {}
@@ -17,5 +19,20 @@ const isUnique = (string) => {
   }
   return true;
 };
+
+//Without additional data structures:
+
+const isUnique = (string) => {
+  for (let i = 0; i < string.length; i++) {
+    for (let j = i + 1; j < string.length; j++) {
+      if (string[i] === string[j]) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+console.log(isUnique('catt'));
 
 module.exports = isUnique;
